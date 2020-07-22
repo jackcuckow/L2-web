@@ -1,0 +1,35 @@
+html {
+    background-image: url("images/bg.jpg");
+    
+}
+
+head {
+    display: grid;
+}
+.main { 
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 0.5fr;
+   grid-template-rows: auto 1fr 1fr auto auto;
+   grid-gap: 10px;
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+   color: red;
+}
+
+button { 
+ color: red;
+  grid-template-columns: 1fr 1fr 1fr 0.5fr;
+   grid-template-rows: auto 1fr 1fr auto auto;
+   grid-gap: 10px;
+    width: 70%;
+    margin: auto;
+    height: auto;
+}
+
+section {
+    text-align: center;
+    color: red;
+}
