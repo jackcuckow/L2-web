@@ -47,13 +47,23 @@ section {
     
 }
 
-img {
-    margin: 10%;
+robot1 {
+    margin: 20%;
     grid-column: 2/3;
       
 }
 
 p {
-    font-size: 60px
+    font-size: 40px;
+    color: red;
     
 }
+
+h2 {
+    font-size: 60px
+}
+
+/*
+robot1 {
+    ma
+}*/
