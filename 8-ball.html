@@ -1,42 +1,44 @@
 <!doctype html>
+
 <head>
-<title>Age Of Tomorrow </title>
-<link rel="stylesheet" href="styles.css">
-<script>
-    var options = ['duck and cover','climb a tree','evaluate bowels','sit in fetal position and cry'];
-    
-    function testing() {
-        document.getElementById('text').innerHTML = 'Hello';
-    var rand = Math.floor(Math.random()*options.length);
-    document.getElementById('text').innerHTML = options[rand];
-    }
-    
+    <title>Age Of Tomorrow </title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        var options = ['duck and cover', 'climb a tree', 'evaluate bowels', 'sit in fetal position and cry'];
+
+        function testing() {
+            document.getElementById('text').innerHTML = 'Hello';
+            var rand = Math.floor(Math.random() * options.length);
+            document.getElementById('text').innerHTML = options[rand];
+        }
+
     </script>
 
 </head>
+
 <body>
     <div class="main">
-    <h1>Age Of Tomorrow</h1>
-    <nav>
-        <a href="index.html">Home</a>    
-        <a href="data.html">Data</a>    
-        <a href="8-ball.html">8-Ball</a>    
-    </nav>
+        <h1>Age Of Tomorrow</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="data.html">Data</a>
+            <a href="8-ball.html">8-Ball</a>
+        </nav>
 
-        
-   
-    
+
+
+
         <section>
-        <p>bored during the apocolypse. </p>
-    
-    <button onclick="testing()">8-ball</button>
-    <p id="text"></p>
-    </section>
+            <p>bored during the apocolypse. </p>
+
+            <button onclick="testing()">8-ball</button>
+            <p id="text"></p>
+            <img class="robot1" src="images/robot1.jpg">
+        </section>
     </div>
-    
-    
-    <img class="robot1" src="images/robot1.jpg">
-    
-    
-    
-</body>  
+
+
+
+
+
+</body>

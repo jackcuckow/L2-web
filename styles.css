@@ -1,21 +1,21 @@
 html {
 
- background: url(images/bg.jpg) no-repeat center fixed;
-  background-size: cover;
+    background: url(images/bg.jpg) no-repeat center fixed;
+    background-size: cover;
 
-    
+
 }
 
 * {
     margin: 0px;
-    padding: 0px; 
+    padding: 0px;
 }
 
-.main { 
-   display: grid;
-   grid-template-columns: 10% 1fr 10%;
-   grid-template-rows: auto;
-   grid-gap: 10px;
+.main {
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-rows: auto;
+    grid-gap: 10px;
 }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
     margin: 20px 0px;
 }
 
-nav { 
+nav {
     grid-column: 1/4;
     text-align: center;
     margin: 50px 0px;
@@ -43,24 +43,30 @@ section {
     grid-column: 2/3;
     text-align: center;
     color: red;
-    background-color: rgba(0,0,0,0.5);
-    
+    background-color: rgba(0, 0, 0, 0.5);
+
 }
 
-robot1 {
+img {
     margin: 20%;
     grid-column: 2/3;
-      
+
+
 }
 
 p {
     font-size: 40px;
     color: red;
-    
+
 }
 
 h2 {
     font-size: 60px
+}
+
+.group img {
+    width: 40%;
+    margin: 5px;
 }
 
 /*
